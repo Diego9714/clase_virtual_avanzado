@@ -1,0 +1,11 @@
+<%- include("head.ejs") %>
+<body>
+    <!-- Usamos el signo = para concatenar variables u objetos de js -->
+    <h1>Loggin with your email and password</h1>
+    <form method="post" action="/user/login">
+        <input type="email" name="email" placeholder="correo">
+        <input type="password" name="password" placeholder="contraseña">
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>
