@@ -14,6 +14,7 @@
 12 - git branch -D : Elimina una rama en git.
 13 - git commit -m "mensaje de la version" : Crea una commit con un mensaje.
 14 - git log : Nos muestra la lista de commit de nuestro repositorio.
+15 - git push url_remota rama : Envia la historia de nuestro repositorio local al repositorio remoto.
 
 # Estados de archivos en GIT.
 
