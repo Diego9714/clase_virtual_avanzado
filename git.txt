@@ -15,6 +15,9 @@
 13 - git commit -m "mensaje de la version" : Crea una commit con un mensaje.
 14 - git log : Nos muestra la lista de commit de nuestro repositorio.
 15 - git push url_remota rama : Envia la historia de nuestro repositorio local al repositorio remoto.
+16 - git clone url_remota : Clona un repositorio y toda su historia a nuestro dispositivo.
+17 - git branch nombre_rama : Crea una nueva rama.
+18 - git checkout nombre_rama: Cambia a la rama solicitada.
 
 # Estados de archivos en GIT.
 
