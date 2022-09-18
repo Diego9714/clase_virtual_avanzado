@@ -18,6 +18,9 @@
 16 - git clone url_remota : Clona un repositorio y toda su historia a nuestro dispositivo.
 17 - git branch nombre_rama : Crea una nueva rama.
 18 - git checkout nombre_rama: Cambia a la rama solicitada.
+19 - git show : Nos muestra los cambios recientes realizados en la rama.
+20 - git diff : Nos muestra la diferencia de cambios realizados en el archvio mas reciente.
+21 - git commit -am "mensaje del commit" : Agrega todos los archivos modificados y crea una commit con el mensaje ingresado.
 
 # Estados de archivos en GIT.
 
