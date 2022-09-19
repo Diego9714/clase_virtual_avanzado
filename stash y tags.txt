@@ -2,4 +2,4 @@
 1 - git stash : Nos devuelve al estado anterior de la commit pero guarda los nuevos cambios en un lugar temporal.
 2 - git stash list : Muestra todos los cambios temporales con la etiqueta WIP (Work in Progress).
 3 - git stash pop : Abre los cambios que eran temporales dentro de la commit de la rama actual y elimina el stash por defecto.
-4 - 
+4 - git stash branch nombre_rama : Guarda los cambios temporales en una nueva rama.

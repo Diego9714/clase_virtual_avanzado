@@ -33,7 +33,7 @@ app.get(process.env.LOGIN_PATH ,(req,res)=>{
     res.render("login")
 })
 
-app.get("/hash/:value",(req,res)=>{
+app.get(process.env.HASHV_PATH ,(req,res)=>{
     const {value} = req.params
     bcrypt.hash(value,10,(err,hash)=>{
         if(err)throw err
@@ -41,9 +41,9 @@ app.get("/hash/:value",(req,res)=>{
     })
 })
 
-app.get("/hash/compare/:value",(req,res)=>{
+app.get(process.env.HASH_PATH ,(req,res)=>{
     const {value} = req.params
-    bcrypt.compare(value,"$2b$10$if3Uvk.S9UM2Y.fdfOlTauGc4Op48/oNrhFK/5FnggksoYfx2p6UG",(err,comp)=>{
+    bcrypt.compare(value, process.env.HASH ,(err,comp)=>{
         if(err)throw err
         res.send(comp)
     })
