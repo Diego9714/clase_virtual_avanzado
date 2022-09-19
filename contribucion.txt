@@ -1,4 +1,3 @@
 # Quien y como puede alguien contribuir a un repositorio
 
 1 - git pull url_rama : Se trae la historia actualizada del repositorio.
-2 - ya no hay mas comandos copiados
