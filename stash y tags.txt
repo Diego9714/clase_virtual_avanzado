@@ -14,3 +14,6 @@
 8 - git tag -a version -m "mensaje" hash_commit : Nos permite definir tags para identificar las versiones de nuestro proyecto.
 9 - git tag : Muestra todas las tags creadas hasta el momento.
 10 - git show-ref --tags : Nos muestra a que commit esta ligada una tag.
+11 - git push origin --tags : Envia las tags creadas en el repositorio local al remoto.
+12 - git tag -d nombre_tag : Elimina una tag mediante el nombre.
+13 - git push origin :refs/tags/nombre_tag : Elimina la tag deseada del repositorio remoto.
